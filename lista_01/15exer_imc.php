@@ -3,6 +3,8 @@ $pag_atual = 15;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 15 - Cálculo de IMC</h1>
+<p>Crie um formulário que permita ao usuário inserir seu peso (em kg) e altura (em metros). O
+script PHP deve calcular o IMC (peso / altura²) e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="peso" class="form-label">Peso (kg)</label>

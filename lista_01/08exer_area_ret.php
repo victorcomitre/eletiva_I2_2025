@@ -3,6 +3,8 @@ $pag_atual = 8;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 8 - Área do retângulo</h1>
+<p>Crie um formulário que permita ao usuário inserir a largura e a altura de um retângulo. O script
+PHP deve calcular a área do retângulo e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="largura" class="form-label">Largura</label>

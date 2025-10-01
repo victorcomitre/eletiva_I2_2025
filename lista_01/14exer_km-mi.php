@@ -3,6 +3,8 @@ $pag_atual = 14;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 14 - Quilômetros para milhas</h1>
+<p>Crie um formulário que permita ao usuário inserir um valor em quilômetros. O script PHP deve
+converter esse valor para milhas (1 quilômetro = 0.621371 milhas) e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="km" class="form-label">Valor em Quilômetros (km)</label>

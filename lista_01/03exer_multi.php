@@ -3,6 +3,8 @@ $pag_atual= 3;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 3 - Multiplicação</h1>
+<p>Crie um formulário que permita ao usuário inserir dois números. O script PHP deve multiplicar 
+    esses números e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="num1" class="form-label">Número 1</label>

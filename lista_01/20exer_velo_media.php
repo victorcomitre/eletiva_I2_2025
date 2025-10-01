@@ -3,6 +3,8 @@ $pag_atual = 20;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 20 - Velocidade média</h1>
+<p>Crie um formulário que permita ao usuário inserir uma distância e um tempo. O script PHP
+deve calcular a velocidade média (distância / tempo) e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="distancia" class="form-label">Distância (km)</label>

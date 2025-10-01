@@ -3,6 +3,8 @@ $pag_atual = 17;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 17 - Juros simples</h1>
+<p>Crie um formulário que permita ao usuário inserir um capital, uma taxa de juros e um período.
+O script PHP deve calcular os juros simples (capital * taxa * período) e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="capital" class="form-label">Capital (R$)</label>

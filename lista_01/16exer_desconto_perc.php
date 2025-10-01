@@ -3,6 +3,8 @@ $pag_atual = 16;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 16 - Preço com desconto</h1>
+<p>Crie um formulário que permita ao usuário inserir um preço e um percentual de desconto. O
+script PHP deve calcular o preço com desconto e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="preco" class="form-label">Preço Original (R$)</label>

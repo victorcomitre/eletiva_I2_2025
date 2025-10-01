@@ -3,6 +3,8 @@ $pag_atual = 6;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 6 - Celsius para Fahrenheit</h1>
+<p>Crie um formulário que permita ao usuário inserir uma temperatura em Celsius. O script PHP
+deve converter essa temperatura para Fahrenheit e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="celsius" class="form-label">Temperatura em Celsius (°C)</label>

@@ -3,6 +3,9 @@ $pag_atual = 18;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercicio 18 - Juros compostos</h1>
+<p>Crie um formulário que permita ao usuário inserir um capital, uma taxa de juros e um período.
+O script PHP deve calcular o montante com juros compostos (capital * (1 + taxa) ^ período) e
+exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="" class="form-label">Capital (R$)</label>

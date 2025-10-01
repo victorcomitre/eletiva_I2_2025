@@ -3,6 +3,8 @@ $pag_atual = 12;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 12 - Potenciação</h1>
+<p>Crie um formulário que permita ao usuário inserir uma base e um expoente. O script PHP deve
+calcular a base elevada ao expoente e exibir o resultado.
 <form method="post">
     <div class="mb-3">
         <label for="base" class="form-label">Base</label>

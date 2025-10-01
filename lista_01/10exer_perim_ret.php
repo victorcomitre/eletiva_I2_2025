@@ -3,6 +3,8 @@ $pag_atual = 10;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 10 - Perímetro do retângulo</h1>
+<p>Crie um formulário que permita ao usuário inserir a largura e a altura de um retângulo. O script
+PHP deve calcular o perímetro do retângulo e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="largura" class="form-label">Largura</label>

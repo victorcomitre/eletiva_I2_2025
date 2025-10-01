@@ -3,6 +3,8 @@ $pag_atual = 5;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 5 - Média de notas</h1>
+<p>Crie um formulário que permita ao usuário inserir três notas. O script PHP deve calcular a
+média das notas e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="nota1" class="form-label">Nota 1</label>

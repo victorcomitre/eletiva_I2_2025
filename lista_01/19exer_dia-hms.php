@@ -3,6 +3,8 @@ $pag_atual = 19;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercicio 19 - Conversor de dias em horas, minutos ou segundos</h1>
+<p>Crie um formulário que permita ao usuário inserir um valor em dias. O script PHP deve
+converter esse valor para horas, minutos e segundos e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="dias" class="form-label">Informe a quantidade de dias</label>

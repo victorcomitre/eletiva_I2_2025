@@ -3,6 +3,8 @@ $pag_atual = 13;
 require_once 'cabecalho.php';
 ?>
 <h1>Exercício 13 - Metros para centímetros</h1>
+<p>Crie um formulário que permita ao usuário inserir um valor em metros. O script PHP deve
+converter esse valor para centímetros e exibir o resultado.</p>
 <form method="post">
     <div class="mb-3">
         <label for="metros" class="form-label">Valor em Metros (m)</label>
