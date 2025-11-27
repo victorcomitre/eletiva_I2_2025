@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: 'Playfair Display', serif;
+    color: #1a1a1a;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.btn-dark {
+    background-color: #1a1a1a;
+    border-radius: 0;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+.table thead th {
+    border-top: none;
+    border-bottom: 2px solid #1a1a1a;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@media print {
+    .card {
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    body {
+        background-color: white !important;
+        color: black !important;
+    }
+    
+    a[href]:after {
+        content: none !important;
+    }
+}

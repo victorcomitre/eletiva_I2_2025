@@ -1,5 +1,5 @@
 <?php
-    $dominio = "mysql:host=localhost;dbname=projetophp"; //String de conexão, PDO é uma classe interna do PHP
+    $dominio = "mysql:host=localhost;dbname=projeto_artcontrol"; //String de conexão, PDO é uma classe interna do PHP
     $usuario = "root";
     $senha = "";
 
