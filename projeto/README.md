@@ -1,5 +1,7 @@
 Avaliação P2 - ELETIVA Linguagem de Programação
+
 Video (link 1) https://drive.google.com/file/d/1UJ4XUoPey7pgbHASHm4hayY4Yi2wtBmO/view?usp=drive_link
+Video (link 2) https://dai.ly/k4QOSBsAUuhfUSEiMOm
 
 Sistema de Controle de Exposições de Arte: Gerenciamento de exposições de arte em galerias e museus (ARTControl).
 
